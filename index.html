@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas 11 DPW</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand me-0" href="">
+            <img src="img/ICON.png" alt="" width="120vh">
+          </a>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hai! Nice To Meet You!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-2 active fw-semibold" aria-current="page" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 fw-semibold" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 fw-semibold" href="#skill">SKILL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 fw-semibold" href="#portofolio">PORTOFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 fw-semibold" href="#contact">CONTACT</a>
+                </li>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+            <h4 class="text-white fst-italic">Hai!! Nice To Meet You!</h4>
+            <h4 class="text-white fst-italic">My Name Is</h4>
+            <h1 class="text-white">AHMADI IHSAN ANANDA</h1>
+            <button class="btn mx-auto fw-semibold" style="background-color: #009970;">MORE ABOUT ME</button>        
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- About -->
+    <section class="page-section pt-0" id="about">
+        <div class="container-fluid py-5 px-5" style="background-color: #DDE6ED">
+          <h1 class="text-center" style="color: #27374D;">ABOUT</h1>
+          <p class="text-center opacity-50 fst-italic" style="color: #27374D; font-weight: 500;">Aku Ahmadi Ihsan Ananda Mahasiswa Program Studi S1 Teknik Informatika di Universitas Riau. Aku memiliki passion di bidang IT, khususnya di bidang Web Development dan Game Development. Aku juga memiliki passion di bidang Graphic Designer, aku suka membuat desain-desain yang menarik.</p>
+          <p class="text-center opacity-50 fst-italic" style="color: #27374D; font-weight: 500;">Berikut adalah riwayat pendidikan yang sudah aku tempuh.</p>
+          <div class="wrapper">
+            <div class="center-line">
+              <a href="#" class="scroll-icon"><svg xmlns="http://www.w3.org/2000/svg" width="36" fill="#009970" class="bi bi-arrow-up-circle pb-3" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+              </svg></a>
+            </div>
+            <div class="row row-1">
+              <section style="color: #27374D;">
+                <img src="img/Untitled design (5).png" class="icon">
+                <div class="details">
+                  <span class="title">SDN 006 Pangkalan Kerinci</span>
+                  <span>1st Jan 2021</span>
+                </div>
+                <p>SDN 006 Pangkalan Kerinci adalah sebuah sekolah dasar yang terletak di Pangkalan Kerinci.</p>
+              </section>
+            </div>
+            <div class="row row-2">
+              <section style="color: #27374D;">
+                <img src="img/1.png" class="icon">
+                <div class="details">
+                  <span class="title">SMPN 1 Pangkalan Kerinci</span>
+                  <span>2nd Jan 2021</span>
+                </div>
+                <p>SMPN 1 Pangkalan Kerinci adalah sebuah sekolah menengah pertama di Pangkalan Kerinci.</p>
+              </section>
+            </div>
+            <div class="row row-1">
+              <section style="color: #27374D;">
+                <img src="img/2.png" class="icon">
+                <div class="details">
+                  <span class="title">SMAN Bernas Binsus</span>
+                  <span>3rd Jan 2021</span>
+                </div>
+                <p>SMAN Bernas Binsus merupakan sekolah menengah atas yang terletak di Bernas Binsus.</p>
+              </section>
+            </div>
+            <div class="row row-2">
+              <section style="color: #27374D;">
+                <img src="img/3.png" class="icon">
+                <div class="details">
+                  <span class="title">Universitas Riau</span>
+                  <span>4th Jan 2021</span>
+                </div>
+                <p>Universitas Riau adalah sebuah perguruan tinggi negeri di Riau yang terkemuka.</p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>  
+    <!-- End About -->
+
+    <!-- Skill -->
+    <section class="page-section pt-5" id="skill">
+      <div class="container-fluid py-5 px-5">
+        <h1 class="text-center" style="color: #27374D;">SKILL</h1>
+        <h5 class="text-center opacity-50 fst-italic" style="color: #27374D; font-weight: 500;">These are some of the skills that I have mastered</h5>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+          <div class="col">
+            <div class="card px-2" style="height: 300px; background-color: #fff; border: 2px solid #009970;">
+              <div class="card-body text-center" style="padding-top: 70px; color: #27374D;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" fill="#27374D" class="bi bi-phone" viewBox="0 0 16 16">
+                  <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                </svg>
+                <h5 class="card-title pt-2 fw-bolder">APP DEVELOPMENT</h5>
+                <div class="progress mx-4 mt-4" style="border: 2px solid #009970;" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div id="progress-app-dev" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 0%;">50%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card px-2" style="height: 300px; background-color: #fff; border: 2px solid #009970;">
+              <div class="card-body text-center" style="padding-top: 70px; color: #27374D;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" fill="#27374D" class="bi bi-laptop" viewBox="0 0 16 16">
+                  <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+                </svg>
+                <h5 class="card-title pt-2 fw-bolder">WEB DEVELOPMENT</h5>
+                <div class="progress mx-4 mt-4" style="border: 2px solid #009970;" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  <div id="progress-web-dev" class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 0%;">95%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card px-2" style="height: 300px; background-color: #fff; border: 2px solid #009970;">
+              <div class="card-body text-center" style="padding-top: 70px; color: #27374D;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" fill="#27374D" class="bi bi-layout-wtf" viewBox="0 0 16 16">
+                  <path d="M5 1v8H1V1zM1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm13 2v5H9V2zM9 1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM5 13v2H3v-2zm-2-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1zm12-1v2H9v-2zm-6-1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1z"/>
+                </svg>
+                <h5 class="card-title pt-2 fw-bolder">GRAPHIC DESIGNER</h5>
+                <div class="progress mx-4 mt-4" style="border: 2px solid #009970;" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <div id="progress-graphic-design" class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 0%;">75%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- End Skill -->
+
+    <!-- Portofolio -->
+    <section class="page-section pt-5" id="portofolio">
+      <div class="container-fluid py-5">
+        <div class="row">
+          <div class="col-md">
+            <h1 class="text-center pb-0" style="color: #27374D;">PORTOFOLIO</h1>
+            <h5 class="text-center text-uppercase opacity-50 fst-italic pt-0 pb-0" style="color: #27374D;">Here are some of my works</h5>
+          </div>
+        </div>
+        <div class="row pt-2 ps-5 pe-5">
+          <div class="col-md-4">
+            <div class="inner rounded-4 position-relative">
+              <img class="rounded-4" src="img/mockup3.png" alt="" style="max-width: 100%;">
+              <div class="overlay">
+                <div class="text fw-semibold">APP DEVELOPMENT</div>
+              </div>
+            </div>
+            <h4 class="text-center pt-2" style="color: #27374D; font-weight: 700;">APP PROJECT</h4>
+            <h6 class="text-center opacity-50 fst-italic" style="color: #27374D;"></h6>
+          </div>
+          <div class="col-md-4">
+            <div class="inner rounded-4 position-relative">
+              <img class="rounded-4" src="img/mockup2.png" alt="" style="max-width: 100%;">
+              <div class="overlay">
+                <div class="text fw-semibold">WEB DEVELOPMENT</div>
+              </div>
+            </div>
+            <h4 class="text-center pt-2" style="color: #27374D; font-weight: 700;">DESIGN WEB</h4>
+            <h6 class="text-center opacity-50 fst-italic" style="color: #27374D;"></h6>
+          </div>
+          <div class="col-md-4">
+            <div class="inner rounded-4 position-relative">
+              <img class="rounded-4" src="img/mockup1.png" alt="" style="max-width: 100%;">
+              <div class="overlay">
+                <div class="text fw-semibold">GRAPHIC DESIGNER</div>
+              </div>
+            </div>
+            <h4 class="text-center pt-2" style="color: #27374D; font-weight: 700;">POST INSTAGRAM</h4>
+            <h6 class="text-center opacity-50 fst-italic" style="color: #27374D;"></h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- End Portofolio -->
+
+    <!-- Contact -->
+    <!-- <section class="page-section pt-5" id="contact">
+      <div class="container py-5 px-5" style="color: #27374D; font-weight: 500;">
+          <div class="col-md">
+            <h1 class="text-center pb-0" style="color: #27374D;">CONTACT</h1>
+            <p class="text-center opacity-50 fst-italic pt-0 pb-0" style="color: #27374D; font-weight: 500;">Untuk mengetahui detail selengkapnya silahkan hubungi Aku di Bawah ini</p>
+          </div>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputFirstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="inputFirstName">
+            </div>
+            <div class="col-md-6">
+              <label for="inputLastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="inputLastName">
+            </div>
+            <div class="col-12">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="@example.com">
+            </div>
+            <div class="col-12">
+              <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-success py-3 px-4 fw-semibold center-block">SEND MESSAGE</button>
+            </div>
+          </form>
+      </div>
+    </section> -->
+    <!-- End Contact -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section contact">
+
+      <!-- Section Title -->
+      <div class="col-md" style="background-color: #DDE6ED; padding-top: 5rem;">
+        <h1 class="text-center pb-0" style="color: #27374D;">CONTACT</h1>
+        <p class="text-center opacity-50 fst-italic pt-0 pb-2" style="color: #27374D; font-weight: 500;">Untuk mengetahui detail selengkapnya silahkan hubungi Aku di Bawah ini</p>
+      </div><!-- End Section Title -->
+
+      <div class="container pb-5 pt-3" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap bg-white bg-opacity-75" style="border-top: 2px solid #009970; border-bottom: 2px solid #009970;">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0" style="color: #009970;"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Jl. Bangau Sakti, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau 28293</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0" style="color: #009970;"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+62 812 6821 1419</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0" style="color: #009970;"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>ahmadi.ihsan3380@student.unri.ac.id</p>
+                </div>
+              </div><!-- End Info Item -->         
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4166.316899219111!2d101.37511316391526!3d0.47913735527779777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a853dac0e9dd%3A0x342428dc6336f4e9!2sFakultas%20Teknik%20Universitas%20Riau!5e0!3m2!1sen!2sid!4v1715780986193!5m2!1sen!2sid" frameborder="0" style="border: 1.5px solid #009970; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+          <div class="col-lg-7 bg-white bg-opacity-75" style="font-weight: 700;">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4 pt-4 px-4">
+
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control opacity-75" id="inputFirstName">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control opacity-75" id="inputLastName">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control opacity-75" id="inputEmail" placeholder="@example.com">
+                  </div>
+                  <div class="col-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                    <textarea class="form-control opacity-75" id="exampleFormControlTextarea1" rows="10"></textarea>
+                  </div>
+              
+                  <div class="col-12 text-center pb-2">
+                    <button type="submit" class="btn py-2 px-4 fw-semibold center-block rounded-5" style="background-color: #009970;">SEND MESSAGE</button>
+                  </div>
+                </form>
+
+              </div>
+            </form>
+          </div>
+          <!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+    <!-- Footer -->
+    <div class="container-fluid" style="background-color: #8b959d;">
+      <div class="row d-flex pt-3 px-2 mx-1 justify-content-left">
+          <div class="col-md-4 p-3 d-flex justify-content-center" style="top: 50%;">
+              <p class="opacity-75 fw-normal" style="color: #27374D;">©Copyright By Ahmadi Ihsan Ananda</p>
+          </div>
+          <div class="col-md-5">
+
+          </div>
+          <div class="col-md-3 p-2 d-flex justify-content-center" style="top: 50%;">
+            <div class="social-links d-flex">
+              <a href=""><i class="bi bi-twitter me-4"></i></a>
+              <a href=""><i class="bi bi-facebook me-4"></i></a>
+              <a href=""><i class="bi bi-instagram me-4"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              document.getElementById('progress-app-dev').style.width = '50%';
+              document.getElementById('progress-web-dev').style.width = '95%';
+              document.getElementById('progress-graphic-design').style.width = '75%';
+              observer.disconnect(); // Stop observing after animation
+            }
+          });
+        }, { threshold: 0.1 });
+    
+        observer.observe(document.getElementById('skill'));
+      });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('.nav-link');
+        const navbarNav = document.querySelector('.navbar-nav');
+        const highlight = document.createElement('div');
+        highlight.classList.add('highlight');
+        navbarNav.appendChild(highlight);
+
+        function updateHighlight() {
+            const activeLink = document.querySelector('.nav-link.active');
+            if (activeLink) {
+                const linkRect = activeLink.getBoundingClientRect();
+                const navRect = navbarNav.getBoundingClientRect();
+                highlight.style.width = `${linkRect.width}px`;
+                highlight.style.left = `${linkRect.left - navRect.left}px`;
+            }
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                navLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+                updateHighlight();
+
+                // Smooth scroll to section
+                const section = document.querySelector(this.getAttribute('href'));
+                window.scrollTo({
+                    top: section.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        window.addEventListener('resize', updateHighlight);
+        window.addEventListener('scroll', () => {
+            const fromTop = window.scrollY;
+
+            navLinks.forEach(link => {
+                const section = document.querySelector(link.getAttribute('href'));
+                if (
+                    section.offsetTop <= fromTop + 50 &&
+                    section.offsetTop + section.offsetHeight > fromTop + 50
+                ) {
+                    link.classList.add('active');
+                    updateHighlight();
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+
+        updateHighlight(); // Initial call to set the highlight position
+    });
+    </script> 
+</body>
+</html>
